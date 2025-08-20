@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 1024 0  L 1024 1024  L 0 1024  Z " fill-rule="evenodd" fill="black" id="path69" />
+    <clipPath id="clip70">
+      <use xlink:href="#path69" />
+    </clipPath>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter71">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="313px" y="84px" width="22px" height="22px" filterUnits="userSpaceOnUse" id="filter72">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget73">
+      <g transform="matrix(0.017578125 0 0 0.017578125 314 85 )" clip-path="url(#clip70)" filter="url(#filter71)">
+        <path d="M511.85 511.04m-447.5 0a447.5 447.5 0 1 0 895 0 447.5 447.5 0 1 0-895 0Z" fill="#F3BA2F" p-id="14794"></path>
+        <path d="M431.856 511.037l79.98-79.98 79.98 79.98-79.98 79.98z" fill="#FFFFFF" p-id="14795"></path>
+        <path d="M431.86 248.71L300.7 379.87l79.98 79.99 131.17-131.17 131.16 131.17 79.98-79.99-131.16-131.16-79.98-79.98zM591.83 773.37L722.99 642.2l-79.98-79.98-131.16 131.16-131.17-131.16-79.98 79.98 131.16 131.17 79.99 79.98zM169.528 511.036l79.98-79.98 79.98 79.98-79.98 79.98zM694.184 511.038l79.98-79.98 79.98 79.98-79.98 79.98z" fill="#FFFFFF" p-id="14796"></path>
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -313 -84 )">
+    <use xlink:href="#widget73" filter="url(#filter72)" />
+    <use xlink:href="#widget73" />
+  </g>
+</svg>

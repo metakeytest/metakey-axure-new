@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="50px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="808px" y="1944px" width="39px" height="50px" filterUnits="userSpaceOnUse" id="filter187">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.6980392156862745 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget188">
+      <path d="M 826.5 1987.0144897094615  C 820.9 1977.3935321288993  812.5 1971.6209575805622  812.5 1962  C 812.5 1956.9857142857143  815.3 1948.5  826.5 1948.5  C 837.7 1948.5  840.5 1956.9857142857143  840.5 1962  C 840.5 1971.6209575805622  832.1 1977.3935321288993  826.5 1987.0144897094615  Z " fill-rule="nonzero" fill="#009dd9" stroke="none" />
+      <path d="M 826.5 1988  C 820.7 1978  812 1972  812 1962  C 812 1956.8  814.9 1948  826.5 1948  C 838.1 1948  841 1956.8  841 1962  C 841 1972  832.3 1978  826.5 1988  Z M 826.5 1986.0289794189232  C 831.9 1976.7870642577989  840 1971.2419151611243  840 1962  C 840 1957.1714285714286  837.3 1949  826.5 1949  C 815.7 1949  813 1957.1714285714286  813 1962  C 813 1971.2419151611243  821.1 1976.7870642577989  826.5 1986.0289794189232  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -808 -1944 )">
+    <use xlink:href="#widget188" filter="url(#filter187)" />
+    <use xlink:href="#widget188" />
+  </g>
+</svg>
